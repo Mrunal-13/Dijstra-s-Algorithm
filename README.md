@@ -22,7 +22,14 @@ Time Complexity of the implementation is O(V^2). If the input graph is represent
 
 6)make the set of pair or vector to store the (weight , edge).
 
-7)
+7)The minimum weight of adjacent edges of each node will be at the top.
+
+8)insert source in set .Take top element of set at work on it in loop.print it out and update distance in dist array .go to its adjacent edge which has minimum weight among all adjacent edges.
+
+9)check dis[node]>dis[privious]+present distance.
+if its greater than update it with dis[privious]+present distance.
+
+10)print out the distance array
 
 
 ## acknowledgement
